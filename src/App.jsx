@@ -262,7 +262,7 @@ function App() {
 								lineHeight: "1.1",
 							}}
 						>
-							Me considero un entusiasta de la tecnología y un amante de todo lo relacionado con la informática. Con más de <span>2 años de experiencia en el desarrollo Full Stack MERN</span>, estoy
+							Me considero un entusiasta de la tecnología y un amante de todo lo relacionado con la informática. Con más de <span>3 años de experiencia en el desarrollo Full Stack </span>, estoy
 							constantemente explorando y expandiendo mis habilidades en el mundo digital.
 						</p>
 						<br />
@@ -280,16 +280,13 @@ function App() {
 								<ul>
 									<li>
 										<strong>Edad</strong>
-										27 Años
+										29 Años
 									</li>
 									<li>
 										<strong>Teléfono</strong>
 										(311) 391 3306
 									</li>
-									{/* <li>
-                  <strong>Website</strong>
-                  www.example.com
-                </li> */}{" "}
+			{" "}
 									<li>
 										<strong>Estudios</strong>
 										Insituto Tecnológico
