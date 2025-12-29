@@ -684,16 +684,7 @@ function App() {
 									</a>
 								</div>
 							</div>
-							<div className='proyecto'>
-								<img src='/p3.png' alt='' style={{ width: "330px", height: "250px" }} />
-								<div className='overlay'>
-									<a href='https://famous-chat-zam.netlify.app' target='_blank'>
-										<h3>CHAT BOT</h3>
-										<br />
-										<p>Chatbot construido con la API de ChatGPT para que represente muchos personajes</p>
-									</a>
-								</div>
-							</div>
+							
 							<div className='proyecto'>
 								<img src='/p4.png' alt='' style={{ width: "330px", height: "250px" }} />
 								<div className='overlay'>
