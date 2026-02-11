@@ -68,7 +68,7 @@ function App() {
   const handleButtonVerCertificado = () => {
     window.open(
       " https://drive.google.com/file/d/1J3XE9a0rlRPHmtOrrYIWB6tH4qsR3yz7/view?usp=sharing",
-      "_blank"
+      "_blank",
     );
   };
 
@@ -211,10 +211,11 @@ function App() {
               // next={() => {}}
               // prev={() => {}}
             >
-              {elements.map((item) => (
+              {elements.map((item, index) => (
                 <Box
                   sx={{ textAlign: "center", mb: { xs: 1, md: 0 } }}
                   id="section0"
+                  key={index}
                 >
                   <Typography
                     sx={{
@@ -680,7 +681,6 @@ function App() {
                   </a>
                 </div>
               </div>
-
               <div className="proyecto">
                 <img
                   src="/images/Zam-App3D.PNG"
@@ -692,6 +692,23 @@ function App() {
                     <h3>ZAM 3D</h3>
                     <br />
                     <p>Proyecto de prueba para el uso de Renders 3D</p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="proyecto">
+                <img
+                  src="/elcamino.PNG"
+                  alt=""
+                  style={{ width: "330px", height: "250px" }}
+                />
+                <div className="overlay">
+                  <a href=" https://el-camino-app.netlify.app" target="_blank">
+                    <h3>El camino</h3>
+                    <br />
+                    <p>
+                      Proyecto para una iglesia donde pueden hacer donaciones
+                    </p>
                   </a>
                 </div>
               </div>
@@ -713,7 +730,6 @@ function App() {
                   </a>
                 </div>
               </div> */}
-
               <div className="proyecto">
                 <img
                   src="/p0.png"
@@ -721,7 +737,7 @@ function App() {
                   style={{ width: "330px", height: "250px" }}
                 />
                 <div className="overlay">
-                  <a href="https://www.garmon.com.mx" target="_blank">
+                  <a href="https://garmon-page.netlify.app" target="_blank">
                     <h3>Garmon Solutions</h3>
                     <br />
                     <p>
@@ -731,7 +747,6 @@ function App() {
                   </a>
                 </div>
               </div>
-
               <div className="proyecto">
                 <img
                   src="/p1.png"
@@ -752,7 +767,6 @@ function App() {
                   </a>
                 </div>
               </div>
-
               <div className="proyecto">
                 <img
                   src="/p4.png"
