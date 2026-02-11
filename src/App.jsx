@@ -657,8 +657,9 @@ function App() {
         <br />
         {/* <!-- SECCION PORTFOLIO --> */}
         <section id="portfolio" className="portfolio">
+          {/* WEB */}
           <div className="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>Proyectos Web</h2>
 
             <div className="galeria">
               <div className="proyecto">
@@ -678,20 +679,6 @@ function App() {
                       Aplicación Web Real para mi Proyecto personal de venta de
                       Figuras de Anime
                     </p>
-                  </a>
-                </div>
-              </div>
-              <div className="proyecto">
-                <img
-                  src="/images/Zam-App3D.PNG"
-                  alt=""
-                  style={{ width: "330px", height: "250px" }}
-                />
-                <div className="overlay">
-                  <a href="https://zam-3d.netlify.app" target="_blank">
-                    <h3>ZAM 3D</h3>
-                    <br />
-                    <p>Proyecto de prueba para el uso de Renders 3D</p>
                   </a>
                 </div>
               </div>
@@ -749,6 +736,20 @@ function App() {
               </div>
               <div className="proyecto">
                 <img
+                  src="/images/Zam-App3D.PNG"
+                  alt=""
+                  style={{ width: "330px", height: "250px" }}
+                />
+                <div className="overlay">
+                  <a href="https://zam-3d.netlify.app" target="_blank">
+                    <h3>ZAM 3D</h3>
+                    <br />
+                    <p>Proyecto de prueba para el uso de Renders 3D</p>
+                  </a>
+                </div>
+              </div>
+              {/* <div className="proyecto">
+                <img
                   src="/p1.png"
                   alt=""
                   style={{ width: "330px", height: "250px" }}
@@ -766,7 +767,7 @@ function App() {
                     </p>
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className="proyecto">
                 <img
                   src="/p4.png"
@@ -795,6 +796,32 @@ function App() {
                     <h3>POKEMON API</h3>
                     <br />
                     <p>App web de pokemon que consulta la Api</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Movil */}
+          <br />
+          <br />
+          <div className="contenido-seccion">
+            <h2>Proyectos APK</h2>
+
+            <div className="galeria">
+              <div className="proyecto">
+                <img
+                  src="/images/applibros.jpeg"
+                  alt=""
+                  style={{ width: "300px", height: "500px" }}
+                />
+                <div className="overlay">
+                  <a
+                    href="https://expo.dev/artifacts/eas/oa9GaWDoTnw8c9MKfLXB7.apk"
+                    target="_blank"
+                  >
+                    <h3>Animazing</h3>
+                    <br />
+                    <p>App movil para leer libros y aprender inglés</p>
                   </a>
                 </div>
               </div>
