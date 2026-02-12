@@ -717,6 +717,7 @@ function App() {
                   </a>
                 </div>
               </div> */}
+
               <div className="proyecto">
                 <img
                   src="/p0.png"
@@ -734,6 +735,22 @@ function App() {
                   </a>
                 </div>
               </div>
+
+              <div className="proyecto">
+                <img
+                  src="/clonfb.PNG"
+                  alt=""
+                  style={{ width: "330px", height: "250px" }}
+                />
+                <div className="overlay">
+                  <a href="https://zam-fb.netlify.app/" target="_blank">
+                    <h3>Facebook Clon</h3>
+                    <br />
+                    <p>Clon de FB para aprender a crear Redes Sociales</p>
+                  </a>
+                </div>
+              </div>
+
               <div className="proyecto">
                 <img
                   src="/images/Zam-App3D.PNG"
